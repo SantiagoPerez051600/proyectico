@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".CrudOfertas"
+    android:padding="15dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/vista_agregarOfertas"
+        android:background="@color/white"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:backgroundTint="#B9D1D1D1">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/agregar"
+                    android:text="Agregar Oferta Laboral"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:gravity="center">
+                </TextView>
+                <EditText
+                    android:id="@+id/txt_Titulo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Titulo"
+                    android:textStyle="bold"
+                    android:minHeight="48dp"
+                    android:paddingTop="10dp"
+                    android:textColor="@color/black"></EditText>
+                <EditText
+                    android:id="@+id/txt_NombreEmpresa"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Nombre De La Empresa"
+                    android:textStyle="bold"
+                    android:minHeight="48dp"
+                    android:paddingTop="10dp"
+                    android:textColor="@color/black"></EditText>
+                <EditText
+                    android:id="@+id/txt_Salario"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Salario"
+                    android:textStyle="bold"
+                    android:minHeight="48dp"
+                    android:inputType="number"
+                    android:paddingTop="10dp"
+                    android:textColor="@color/black"></EditText>
+                <EditText
+                    android:id="@+id/txt_Descripcion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Descricion"
+                    android:minHeight="150dp"
+                    android:paddingTop="10dp"
+                    android:textColor="@color/black"></EditText>
+                <EditText
+                    android:id="@+id/txt_Requisitos"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Requisitos"
+                    android:minHeight="100dp"
+                    android:paddingTop="10dp"
+                    android:textColor="@color/black"></EditText>
+                <EditText
+                    android:id="@+id/txt_Otros"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Otras Especificaciones"
+                    android:minHeight="100dp"
+                    android:paddingTop="10dp"
+                    android:textColor="@color/black"></EditText>
+                <Button
+                    android:id="@+id/btn_Agregar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Agregar"
+                    android:paddingTop="10dp"
+                    android:backgroundTint="@color/teal_700">
+                </Button>
+            </LinearLayout>
+        </ScrollView>
+
+
+    </LinearLayout>
+
+</LinearLayout>

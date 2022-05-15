@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:scrollbars="vertical"
+    android:background="#8498F1">
+    <LinearLayout
+        android:id="@+id/linearTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/lbl_Titulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Titulo: "
+            android:textSize="20sp"
+            android:textStyle="bold"></TextView>
+        <TextView
+            android:id="@+id/txt_Titulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/lbl_Titulo"
+            android:paddingLeft="5dp"
+            android:text="xxxxx"
+            android:textSize="20sp"
+            ></TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linearNombreEmpresa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/linearTitulo"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:id="@+id/lbl_NombreEmpresa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre De La Empresa: "
+            android:textSize="20sp"
+            android:textStyle="bold">
+
+        </TextView>
+        <TextView
+            android:id="@+id/txt_NombreEmpresa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_Titulo"
+            android:layout_toRightOf="@+id/lbl_NombreEmpresa"
+            android:paddingLeft="5dp"
+            android:text="xxxxx"
+            android:textSize="20sp"></TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linearSalario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/linearNombreEmpresa"
+        android:layout_marginTop="5dp">
+        <TextView
+            android:id="@+id/lbl_Salario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Salario:"
+            android:textSize="20sp"
+            android:textStyle="bold"></TextView>
+        <TextView
+            android:id="@+id/txt_Salario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/lbl_Salario"
+            android:paddingLeft="5dp"
+            android:text="xxxxx"
+            android:textSize="20sp"></TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linearDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/linearSalario"
+        android:layout_marginTop="5dp">
+        <TextView
+            android:id="@+id/lbl_Descripcion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Descripcion: "
+            android:textSize="20sp"
+            android:textStyle="bold"> </TextView>
+        <TextView
+            android:id="@+id/txt_Descripcion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/lbl_Descripcion"
+            android:paddingLeft="5dp"
+            android:text="xxxxx"
+            android:textSize="20sp"></TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linearRequisitos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/linearDescripcion"
+        android:layout_marginTop="5dp">
+        <TextView
+            android:id="@+id/lbl_Requisitos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Requisitos: "
+            android:textSize="20sp"
+            android:textStyle="bold"></TextView>
+        <TextView
+            android:id="@+id/txt_Requisitos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/lbl_Requisitos"
+            android:paddingLeft="5dp"
+            android:text="xxxxx"
+            android:textSize="20sp"></TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linearOtros"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/linearRequisitos"
+        android:layout_marginTop="5dp">
+        <TextView
+            android:id="@+id/lbl_Otros"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Otros: "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            ></TextView>
+        <TextView
+            android:id="@+id/txt_Otros"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/lbl_Otros"
+            android:paddingLeft="5dp"
+            android:text="xxxxx"
+            android:textSize="20sp"
+            ></TextView>
+
+    </LinearLayout>
+</RelativeLayout>

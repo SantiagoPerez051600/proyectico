@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1087634190677",
+    "project_id": "p-i-8-semestre",
+    "storage_bucket": "p-i-8-semestre.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1087634190677:android:d7fe08b58efee093347fdc",
+        "android_client_info": {
+          "package_name": "com.example.proyectico"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1087634190677-ano96oq9tl4l5i74evpi0j7kjpq8taqb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTLDoqz-8NNoRGmtJ0LLHFLfNwRuXEXA4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1087634190677-ano96oq9tl4l5i74evpi0j7kjpq8taqb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

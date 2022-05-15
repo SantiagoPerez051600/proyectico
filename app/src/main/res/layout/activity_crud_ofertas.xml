@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CrudOfertas">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/crudOfertas"
+        android:background="#FFFFFF"
+        android:visibility="gone"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/txt_Titulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Titulo"
+            android:textStyle="bold"
+            android:minHeight="48dp"
+            android:paddingTop="10dp"
+            android:textColor="@color/black"></EditText>
+        <EditText
+            android:id="@+id/txt_NombreEmpresa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nombre De La Empresa"
+            android:textStyle="bold"
+            android:minHeight="48dp"
+            android:paddingTop="10dp"
+            android:textColor="@color/black"></EditText>
+        <EditText
+            android:id="@+id/txt_Salario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Salario"
+            android:textStyle="bold"
+            android:minHeight="48dp"
+            android:inputType="number"
+            android:paddingTop="10dp"
+            android:textColor="@color/black"></EditText>
+        <EditText
+            android:id="@+id/txt_Descripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Descricion"
+            android:minHeight="150dp"
+            android:paddingTop="10dp"
+            android:textColor="@color/black"></EditText>
+        <EditText
+            android:id="@+id/txt_Requisitos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Requisitos"
+            android:minHeight="100dp"
+            android:paddingTop="10dp"
+            android:textColor="@color/black"></EditText>
+        <EditText
+            android:id="@+id/txt_Otros"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Otras Especificaciones"
+            android:minHeight="100dp"
+            android:paddingTop="10dp"
+            android:textColor="@color/black"></EditText>
+
+        <Button
+            android:id="@+id/btn_Cancelar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cancelar"
+            android:textAllCaps="false">
+        </Button>
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_margin="15dp"
+        android:layout_height="match_parent"
+        android:id="@+id/list_ofertas">
+    </ListView>
+
+
+
+</LinearLayout>
